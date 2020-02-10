@@ -10,7 +10,7 @@
 
 Step 1: Download Viromedia app to your phone, we need this for its TestBed feature which will help us iterate faster!  
 Step 2: globally install ngrok with npm or yarn  
-Step 3: globally install react-viro-cli with npm or yarn 
+Step 3: globally install react-viro-cli with npm or yarn
 Step 4: In your  react-viro init **[MyJSWorkshop]**
 Step 5: Run the app:  npm start
 step 6: Ngrok should give you a forwarding address at https://[myurl].ngrok.io
