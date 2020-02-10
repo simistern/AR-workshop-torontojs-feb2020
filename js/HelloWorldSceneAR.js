@@ -33,23 +33,20 @@ export default class HelloWorldSceneAR extends Component {
         <ViroBox
             dragType="FixedToWorld"
             onDrag={() => {}}
-            // materials={["box"]}
             scale={[0.5, 0.5, 0.5]}
             position={[1, -1, -1]}
           />
           <ViroBox
             dragType="FixedToWorld"
             onDrag={() => {}}
-            // materials={["box"]}
             scale={[0.5, 0.5, 0.5]}
             position={[0, -1, -1]}
           />
           <ViroBox
             dragType="FixedToWorld"
             onDrag={() => {}}
-            // materials={["box"]}
             scale={[0.5, 0.5, 0.5]}
-            position={[-1, -1, -1]}
+            position={[0.5, -0.5, -1]}
           />
       </ViroARScene>
     );
