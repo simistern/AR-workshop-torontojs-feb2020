@@ -34,18 +34,22 @@ export default class HelloWorldSceneAR extends Component {
             dragType="FixedToWorld"
             onDrag={() => {}}
             scale={[0.5, 0.5, 0.5]}
+            materials={['box']} 
             position={[1, -1, -1]}
           />
+
           <ViroBox
             dragType="FixedToWorld"
             onDrag={() => {}}
             scale={[0.5, 0.5, 0.5]}
+            materials={['box']} 
             position={[0, -1, -1]}
           />
           <ViroBox
             dragType="FixedToWorld"
             onDrag={() => {}}
             scale={[0.5, 0.5, 0.5]}
+            materials={['box']} 
             position={[0.5, -0.5, -1]}
           />
       </ViroARScene>
@@ -76,8 +80,9 @@ var styles = StyleSheet.create({
 ViroMaterials.createMaterials({
   box: {
     shininess: 5.0,
-    diffuseColor: "#ffffff",
-    lightingModel: "Blinn"
+    diffuseColor: '#ffffff',
+    lightingModel: 'Constant',
+    diffuseTexture: require('../assets/SF_Fighter-Albedo.jpg')
   },
   quad: {
     diffuseColor: "rgba(0,0,0,0.2)"
