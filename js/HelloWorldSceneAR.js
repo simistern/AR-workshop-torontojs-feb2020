@@ -59,6 +59,10 @@ export default class HelloWorldSceneAR extends Component {
             uri: 'https://s3.amazonaws.com/torontojs.arworkshop/SciFi_Fighter.obj'
           }}
           materials={["spaceship"]}
+          // physicsBody={{
+          //   type: "dynamic",
+          //   mass: 1
+          // }}
           // ref={ar3dModelRef}
           onLoadEnd={data => {
             alert("Model Loaded");
